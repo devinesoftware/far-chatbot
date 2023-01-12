@@ -32,7 +32,7 @@ export default function FARForm() {
         <>
          <div className="flex min-h-full items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
           <div className="w-full max-w-md space-y-4">
-            <p className="mt-4 text-center text-sm">Welcome to the Federal Acquisition Regulation (FAR) AI assistant. Please enter your questy below and hit 'Search'.</p>
+            <p className="mt-4 text-center text-sm">Welcome to the Federal Acquisition Regulation (FAR) AI assistant. Please enter your question below and hit 'Search'.</p>
           </div>
         </div>
         <div className="flex min-h-full items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
@@ -44,7 +44,7 @@ export default function FARForm() {
                 disabled={isLoading}
                 placeholder="ex: Can foreign nationals participate?"
                 required
-                className="relative block w-full appearance-none rounded-none border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500  focus:z-10 focus:outline-none sm:text-sm">
+                className="relative block w-full appearance-none rounded-none border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500  focus:z-10 focus:outline-none sm:text-sm mb-8 rounded-md">
               </input>
               <button type="button" 
                 onClick={submitQuestion} 
